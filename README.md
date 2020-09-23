@@ -3,6 +3,7 @@ git init
 
 ### Agregando la dirección para el repositorio remoto
 Ya que ya se hacía uso de git en este proyecto, en lugar de agregar la dirección para el remoto, la actualizaremos.
+
 git remote set-url origin https://github.com/khannom/git-tutorial.git
 
 
@@ -23,10 +24,12 @@ git branch
 
 ### Luego de actualizar el readme, guardamos los cambios en el branch actual
 git add .
+
 git commit -m "readme actualizado"
 
 ### Para poder subir los cambios al repositorio remoto, necesitamos actualizar el branch master con los cambios del branch readme
 Nos movemos al branch master:
+
 git checkout master
 
 ### Agregando los cambios del branch readme al branch master
