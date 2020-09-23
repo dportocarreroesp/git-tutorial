@@ -36,8 +36,11 @@ git merge readme
 git log
 
 ### Supongamos que no me gustó cómo quedó el readme, entonces regreso a la versión anterior
+git reset HEAD~1
 
+### Comprobando que retrocedimos una versión
+git log
 
-
-
+### Supongamos que se hicieron cambios en el repositorio remoto, para actualizar nuestro repositorio local haremos lo siguiente
+git pull origin master
 
